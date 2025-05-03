@@ -83,7 +83,7 @@ class TfliteService {
   }
 
   List<List<List<List<double>>>> _createOutputTensor() {
-    // Create output tensor of shape [1, 56, 56, 2] for a,b channels
+    // Create output tensor of shape [1, 896, 896, 2] for a,b channels
     return List.generate(
       1,
           (_) => List.generate(
